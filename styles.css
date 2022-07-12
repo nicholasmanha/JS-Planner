@@ -1,0 +1,41 @@
+
+.form-control {
+    background-color: #006dcc;
+  }
+.flatpickr-calendar {
+	font-family: Arial;    
+}
+span.deleteicon {
+    position: relative;
+    display: block;
+    align-items: center;
+}
+span.deleteicon span {
+    position: absolute;
+    top:10px;
+    display: block;
+    right: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #ccc;
+    font: 13px monospace;
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+}
+span.deleteicon input {
+    padding-right: 18px;
+    box-sizing: border-box;
+}
+/*.img{
+    display:none;
+}
+.active .img{
+    position:relative;
+    top:20px;
+    display:block;
+    right:20px;
+    
+}
